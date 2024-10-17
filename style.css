@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'DotFont';
+    src: url('font/DotFont.woff2');
+}
+@font-face {
+    font-family: 'NonDotFont';
+    src: url('font/Regular.otf') ;
+}
+
+
+h2,p{
+    font-family: 'NonDotFont';
+}
+#nothing {
+    font-family: 'DotFont';    
+}
+.vertical {
+    position: absolute;
+    font-size: 50px;
+    font-family: 'DotFont';
+    margin: 0 -15px;
+    writing-mode: vertical-lr;
+    z-index: 1;
+    display: none;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #000 ;
+}
+
+.buttons{
+    width: 90%;
+    height: 50px;
+    background-color: #002F6C;
+    border: #002F6C;
+    border-radius: 50px;
+    color: #fff;
+    transition: width 0.5s ease;
+}
+.buttons:hover{
+    width: 95%;
+}
+
+footer{
+    background-color: #000;
+}
+.footer p{
+    color: #fff;
+}
+.links{
+    font-family: 'NonDotFont';
+    text-decoration: none;   
+    color: #fff;
+}
+.links:hover{
+    color: #fff;
+}
+input{
+    background-color: #000;
+    border: #000;
+    border-radius: 5px;
+    height: 60px;
+    width: 80%;
+    outline: 1px solid #fff;
+    color: #fff;
+}
+input::placeholder{
+    color: #fff;
+}
+#click{
+    font-family: 'DotFont';
+    font-size: 35px;
+    background-color: #000;
+    border: #000;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    right: 35px;
+}
